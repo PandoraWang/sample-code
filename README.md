@@ -10,7 +10,7 @@ This is the repo for a small web application in Python
 
 The application performs the following behaviors:
 
-	- Accept a POST request to the route “/test”, which accepts one argument “string_to_cut”
+ - Accept a POST request to the route “/test”, which accepts one argument “string_to_cut”
  - Return a JSON object with the key “return_string” and a string containing every third letter from the original string
 
 e.g., POST {"string_to_cut": "helloword"} will have a retun: {"return_string": "lwd"}
